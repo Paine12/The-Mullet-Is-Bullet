@@ -1,3 +1,8 @@
+@keyframes rotation {
+    from {transform: rotate(0turn);}
+    to {transform: rotate(1turn);}
+}
+
 body {
     background-image: url(Untitled.jpg);
     background-repeat: no-repeat;
@@ -9,6 +14,7 @@ body {
     width: 900px;
     background-color: rgb(255,255,255,50%) ;
     margin-left: auto;
+    border: 1em double yellow;
 }
 
 .title {
@@ -34,5 +40,17 @@ body {
 }
 
 .highlight {
+    position: relative;
+    top: -5px;
+    display: inline-block   ;
     background-color: green;
+}
+
+.highlight:hover {
+    animation-name: rotation;
+    animation-duration: 2s;
+}
+
+.red {
+    background-color: pink;
 }
