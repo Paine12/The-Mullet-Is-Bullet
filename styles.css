@@ -1,0 +1,36 @@
+body {
+    background-image: url(Untitled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.big-container {
+    width: 900px;
+    background-color: rgb(255,255,255,50%) ;
+}
+
+.title {
+    background-color: red;
+    text-align: right;
+}
+
+.hidden {
+    background-color: black;
+}
+
+.hidden:hover {
+    color: brown;
+    text-align: center;
+}
+
+.right {
+ text-align: end;
+}
+
+.middle {
+    text-align: center;
+}
+
+.highlight {
+    background-color: green;
+}
