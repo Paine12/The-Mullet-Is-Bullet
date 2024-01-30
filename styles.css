@@ -2,11 +2,13 @@ body {
     background-image: url(Untitled.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family:  "Comic Sans MS", "Comic Sans", cursive;;
 }
 
 .big-container {
     width: 900px;
     background-color: rgb(255,255,255,50%) ;
+    margin-left: auto;
 }
 
 .title {
